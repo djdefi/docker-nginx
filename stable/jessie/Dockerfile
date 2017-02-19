@@ -2,7 +2,7 @@ FROM resin/rpi-raspbian:jessie
 
 MAINTAINER NGINX Docker Maintainers "docker-maint@nginx.com"
 
-ENV NGINX_VERSION 1.6.2-5+deb8u2 
+ENV NGINX_VERSION 1.6.2-5+deb8u4 
 
 RUN apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62 \
 	&& apt-get update \
